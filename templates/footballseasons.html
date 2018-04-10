@@ -1,10 +1,9 @@
-
 <link rel="stylesheet" href="/static/style.css">
 
-<h1> Michigan Men's Basketball </h1>
+<h1> Michigan Men's Football </h1>
 
 <!-- adding a form -->
-<form action="/bball" method="POST">
+<form action="/football" method="POST">
     Sort By:<br/>
     <input type="radio" name="sortby" value="year"/> Year <br/>
     <input type="radio" name="sortby" value="wins"/> Wins <br/>
@@ -33,7 +32,7 @@
         <td>{{s[1]}}</td>
         <td>{{s[3]}}</td>
         <td>{{s[4]}}</td>
-        <td>{{s[5]}}</td>
+        <td>{{s[6]}}</td>
     </tr>
 {% endfor %}
 </table>
